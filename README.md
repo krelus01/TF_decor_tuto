@@ -26,7 +26,7 @@ Also I was somehow inspired by article wrote by Radek Zaworski "DATA AUGMENTATIO
 5. After training I tested few pictures with label_image script that shows probability percentages for each of my label type and as expected for training images, every test showed accuracy of model around 99%.
 
 <b>SUMMARY</b> <br>
-I decided to not retrain model with changed hyperparameters, because I thought it was not really purpose of this task to get highest possible accuracy, but to show I can successfully connect given dataset and script to work together and I think I got quite high (maybe even too high? =] ) result from chosen learning rate and quantity of training steps in first run after all.
+I decided to not retrain model with changed hyperparameters, because I thought it was not really purpose of this task to get highest possible accuracy, but to show I can successfully connect given dataset and script to work together and I think I got quite high (maybe even too high? =] ) result from chosen learning rate and quantity of training steps in first run after all.<br>
 So, everything I did to complete task was: rewrite script that splits images to diffrent directories with names of labels and reproduces images as .jpg files, download git repository with tutorial, copy directory with images to correct place and run retraining last layer of model. Hyperparameters I used allowed model to achive maximum accuracy of <b>94%</b>. Next I tested some random pictures from dataset with testing script to ensure that my model can easly recognize decors from images.
 
 Thanks for reading!
